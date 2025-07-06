@@ -17,3 +17,8 @@ This file contains:
 1. A non-correlated subquery to find properties with average ratings greater than 4.0
 2. A correlated subquery to find users who have made more than 3 bookings
 
+## aggregations_and_window_functions.sql
+
+This file includes:
+1. A query to count total bookings per user using GROUP BY and COUNT.
+2. A query using the RANK() window function to rank properties by total bookings.
